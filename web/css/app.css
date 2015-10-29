@@ -1,0 +1,30 @@
+* {
+	font-size: 1em;
+	font-family: garamond, fantasy;
+	color: #2243cc;
+}
+h1 {
+	font-size: 2em;
+	color:	#acfe5e;
+}
+#titre {
+	text-align: center;
+	font-family: Comic Sans MS,arial ;
+}
+#cde{
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	color: blue;
+}
+#opt{
+	text-decoration: none;
+	font-style: italic;
+	color: yellow;
+}
+#opt li{
+	text-decoration: none;
+}
+#desc{
+	color: black;
+}
