@@ -9,189 +9,43 @@
   <body>
 	<h1 id="titre">Petit guide LINUX.</h1>
     <figure>
-        <img src="web/img/index.png" alt="UN+BUNTU : Passez à la vitesse supérieure!" />
+        <img src="web/img/index.png" alt="UNBUNTU : Passez à la vitesse supérieure!" />
         <figcaption>UBUNTU</figcaption>
     </figure>
-	<p>Linux est un système d'exploitation multitaches et multi-utilisateurs.</p>
-      <table border="1px">
-          <thead>
-              <tr>
-                  <th colspan="4">Evoluer dans l'environnement LINUX</th>   <!-- colspan pour nbre de col du titre -->
-              </tr>
-              <tr>
-                  <th>commande</th>                   <!--  table header-->
-                  <th>option(s)</th>
-                  <th>paramètre(s)</th>
-                  <th>descriptif</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>        <!-- tr tablerow    (rangée)</tr>  -->
-                  <td id="cde">ls</td>                          <!-- td table data (colonne) -->
-                  <td id="opt">
-                    <ul>
-                      <li>-l</li>
-                      <li>-a</li>
-                      <li>-t</li>
+	   <h2>Linux : un système d'exploitation multitaches et multi-utilisateurs.</h2>
 
+          <p>Les raccourcis clavier de l'environnement Linux permettent d'utiliser le bureau et les applications plus efficacement.
+          Ils deviennent nécessaires lorsqu'aucun dispositif de pointage n'est disponible.</p>
 
-Les raccourcis clavier utiles
+          <p>La touche SUPER correspond à la touche windows du clavier.</p>
 
-Cette page fournit un aperçu des raccourcis clavier qui peuvent vous aider à utiliser votre bureau et les applications plus efficacement. Si vous ne pouvez pas utiliser de souris ni d'appareil de pointage, consultez Navigation au clavier pour savoir comment naviguer dans les interfaces uniquement via le clavier.
-Se déplacer sur le bureau
+          <dl>
+              <dt>Alt+F4</dt>
+              <dd>Fermer la fenêtre actuelle.</dd>
 
-Alt+F4
-	
+              <dt>Alt+F2</dt>
+              <dd>Faire apparaître la fenêtre des commandes (pour lancer des commandes rapidement)</dd>
+              <dt> Alt+Tab </dt>
+              <dd>Changer rapidement de fenêtre. Maintenez la touche Maj enfoncée pour inverser l'ordre de parcours.</dd>
+              <dt>Alt+`</dt>
+              <dd>Changer de fenêtre dans une même application, ou depuis l'application sélectionnée après Alt+Tab</dd>
+              <dd>Pour tous les claviers, le raccourci est Alt plus la touche se trouvant au dessus de Tab, quelle qu'elle soit.</dd>
+              <dt>Super+S</dt>
+              <dd>Activer le sélecteur d'espace de travail. Zoom arrière sur tous les espaces de travail.</dd>
+              <dt>Super+W</dt>
+              <dd> Activer le mode « Expo ». Affiche toutes les fenêtres de l'espace de travail actuel.</dd>
+              <dt>Ctrl+Alt+Flèches</dt>
+              <dd>Basculer entre les espaces de travail.</dd>
+              <dt>Ctrl+Alt+Shift+Flèches</dt>
+              <dd>Déplacer la fenêtre actuelle vers un espace de travail différent.</dd>
+              <dt>Ctrl+Alt+Suppr</dt>
+              <dd>Se déconnecter.</dd>
+              <dt>Ctrl+Super+D</dt>
+              <dd>Cache toutes les fenêtres et affiche le bureau. Appuyez à nouveau sur les touches pour restaurer vos fenêtres.</dd>
+              <dt>Ctrl+Alt+L</dt>
+              <dd>Verrouiller l'écran.</dd>
 
-Fermer la fenêtre actuelle.
+      </dl>
 
-Alt+F2
-	
-
-Faire apparaître la fenêtre des commandes (pour lancer des commandes rapidement)
-
-Alt+Tab
-	
-
-Changer rapidement de fenêtre. Maintenez la touche Maj enfoncée pour inverser l'ordre de parcours.
-
-Alt+`
-	
-
-Changer de fenêtre dans une même application, ou depuis l'application sélectionnée après Alt+Tab
-
-Ce raccourci utilise la touche ` des claviers américains pour lesquels la touche ` est au-dessus de la touche Tab. Pour tous les autres claviers, le raccourci est Alt plus la touche se trouvant au dessus de Tab, quelle qu'elle soit.
-
-Super+S
-	
-
-Activer le sélecteur d'espace de travail. Zoom arrière sur tous les espaces de travail.
-
-Super+W
-	
-
-Activer le mode « Expo ». Affiche toutes les fenêtres de l'espace de travail actuel.
-
-Ctrl+Alt+Flèches
-	
-
-Basculer entre les espaces de travail.
-
-Ctrl+Alt+Shift+Flèches
-	
-
-Déplacer la fenêtre actuelle vers un espace de travail différent.
-
-Ctrl+Alt+Suppr
-	
-
-Se déconnecter.
-
-Ctrl+Super+D
-	
-
-Cache toutes les fenêtres et affiche le bureau. Appuyez à nouveau sur les touches pour restaurer vos fenêtres.
-
-Ctrl+Alt+L
-	
-
-Verrouiller l'écran.
-
-
-
-
-
-                      <li>-rtl</li>
-                    </ul>
-                  </td>
-                  <td>
-                    <ul>
-                      <li>liste détaillée</li>
-                      <li>affiche les fichiers cachés</li>
-                      <li>(reverse) inversée</li>
-                      <li>liste temporelle</li>
-                      <li>Reverse time liste</li>
-                    </ul>
-                  </td>
-                  <td id="desc">liste les repertoires et fichiers</td>
-              </tr>
-
-              <tr>
-                  <td id="cde">pwd</td>
-                  <td id="opt">
-                    <ul>
-                      <li> </li>
-                    </ul>
-                  </td>
-                  <td>
-                      <li> </li>
-                  </td>
-                  <td id="desc">Print Working Directory</td>
-              </tr>
-
-              <tr>
-                  <td id="cde">cd</td>
-                  <td id="opt">
-                    <ul>
-                      <li> </li>
-                    </ul>
-                  </td>
-                  <td>
-                      <li> </li>
-                  </td>
-                  <td id="desc">Change Directory</td>
-              </tr>
-              <tr>
-                  <td id="cde">mkdir</td>
-                  <td id="opt">
-                    <ul>
-                      <li> </li>
-                    </ul>
-                  </td>
-                  <td>
-                      <li> </li>
-                  </td>
-                  <td id="desc">Make Directory</td>
-              </tr>
-              <tr>
-                  <td id="cde">rmdir</td>
-                  <td id="opt">
-                    <ul>
-                      <li> </li>
-                    </ul>
-                  </td>  <td>
-                        <li> </li>
-                    </td>
-                  <td id="desc">Remove Directory</td>
-              </tr>
-              <tr>
-                  <td id="cde">rmdir</td>
-                  <td id="opt">
-                    <ul>
-                      <li> </li>
-                    </ul>
-                  </td>  <td>
-                        <li> </li>
-                    </td>
-                  <td id="desc">Remove Directory</td>
-              </tr>
-              <tr>
-                  <td id="cde">commande</td>
-                  <td id="opt">
-                      <ul>
-                        <li> </li>
-                      </ul>
-                  </td>
-                  <td>
-                      <ul>
-                        <li> </li>
-                      </ul>
-                  </td>
-                  <td id="desc">  </td>
-              </tr>
-          </tbody>
-      </table>
-
-  </body>
   </body>
 </html>
