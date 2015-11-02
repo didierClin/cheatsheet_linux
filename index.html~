@@ -16,7 +16,7 @@
       <table border="1px">
           <thead>
               <tr>
-                  <th colspan="4">Evoluer dans l'environnement LINUX</th>   <!-- colspan pour nbre de col du titre -->
+                  <th colspan="4">Les principales commandes LINUX</th>   <!-- colspan pour nbre de col du titre -->
               </tr>
               <tr>
                   <th>commande</th>                   <!--  table header-->
@@ -32,75 +32,8 @@
                     <ul>
                       <li>-l</li>
                       <li>-a</li>
+                      <li>-r</li>
                       <li>-t</li>
-
-
-Les raccourcis clavier utiles
-
-Cette page fournit un aperçu des raccourcis clavier qui peuvent vous aider à utiliser votre bureau et les applications plus efficacement. Si vous ne pouvez pas utiliser de souris ni d'appareil de pointage, consultez Navigation au clavier pour savoir comment naviguer dans les interfaces uniquement via le clavier.
-Se déplacer sur le bureau
-
-Alt+F4
-	
-
-Fermer la fenêtre actuelle.
-
-Alt+F2
-	
-
-Faire apparaître la fenêtre des commandes (pour lancer des commandes rapidement)
-
-Alt+Tab
-	
-
-Changer rapidement de fenêtre. Maintenez la touche Maj enfoncée pour inverser l'ordre de parcours.
-
-Alt+`
-	
-
-Changer de fenêtre dans une même application, ou depuis l'application sélectionnée après Alt+Tab
-
-Ce raccourci utilise la touche ` des claviers américains pour lesquels la touche ` est au-dessus de la touche Tab. Pour tous les autres claviers, le raccourci est Alt plus la touche se trouvant au dessus de Tab, quelle qu'elle soit.
-
-Super+S
-	
-
-Activer le sélecteur d'espace de travail. Zoom arrière sur tous les espaces de travail.
-
-Super+W
-	
-
-Activer le mode « Expo ». Affiche toutes les fenêtres de l'espace de travail actuel.
-
-Ctrl+Alt+Flèches
-	
-
-Basculer entre les espaces de travail.
-
-Ctrl+Alt+Shift+Flèches
-	
-
-Déplacer la fenêtre actuelle vers un espace de travail différent.
-
-Ctrl+Alt+Suppr
-	
-
-Se déconnecter.
-
-Ctrl+Super+D
-	
-
-Cache toutes les fenêtres et affiche le bureau. Appuyez à nouveau sur les touches pour restaurer vos fenêtres.
-
-Ctrl+Alt+L
-	
-
-Verrouiller l'écran.
-
-
-
-
-
                       <li>-rtl</li>
                     </ul>
                   </td>
