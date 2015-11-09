@@ -2,6 +2,10 @@ body {
 	font-size: 1em;
 	font-family: garamond, fantasy;
 	color: #2243cc;
+	background-color: rgb(198, 200, 235);
+	background-image: url('../img/index.png');
+  background-position: 15px 50px;
+  background-repeat: no-repeat;
 }
 
 #titre {
@@ -79,17 +83,24 @@ dd{
         background-image: url('web/img/bcg_gris_400.png');
     }
     .bloc{
-      background-color: darkgreen;
       max-height: 400px;
     }
-		img{
-			display: none;
+		h1{
+			font-size: 2em;
+			margin: 0.5em auto;
+		}
+		h2{
+			line-height: 1.3em;
+			width: 100%;
+		}
+		h3{
+			font-size: .9em;
 		}
     dt{
       width: 100%;
     }
     dd{
-      width: 100%;
+      width: auto;
       text-align: right;
     }
 
