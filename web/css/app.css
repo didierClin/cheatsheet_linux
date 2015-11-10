@@ -53,8 +53,7 @@ dl{
   font-family: "Courier New", Courier, monospace;
 }
 dt{
-/*  font-family: 'Black Ops One', cursive;*/
-margin-top: 1em;
+	margin-top: 1em;
   font-weight: bold;
   width: 33%;
 }
