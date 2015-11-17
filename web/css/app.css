@@ -105,7 +105,7 @@ dd{
 
 }
 /*medium width*/
-@media screen and (min-width: 480x) and (max-width: 799px){
+@media screen and (min-width: 480px) and (max-width: 799px){
     body{
         background-color: aqua;
     }
